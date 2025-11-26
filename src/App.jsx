@@ -112,6 +112,14 @@ function App() {
           </a>
         </div>
 
+        <div className="project-card">
+          <h3>Koox_App</h3>
+          <p>Elabore con un compañero una App en flutter de transporte de Koox, que ayuda a ubicar donde estan las ubicaciones de los paraderos</p>
+          <a href="https://kooxweb.vercel.app/" target="_blank" rel="noreferrer" className="btn-link">
+            Ver Pagina
+          </a>
+        </div>
+
       </main>
 
       <footer className="footer">
