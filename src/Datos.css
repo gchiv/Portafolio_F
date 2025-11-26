@@ -1,0 +1,58 @@
+.datos-container {
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-card {
+    background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid #444;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+}
+
+.title-section h2 {
+    color: #646cff;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.info-section p {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.separator {
+    height: 1px;
+    background-color: #444;
+    margin: 1.5rem 0;
+}
+
+.contacto-section h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.info-contacto p {
+    color: #a1a1a1;
+    font-family: monospace;
+    font-size: 1.1rem;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .about-card {
+        padding: 1.5rem;
+    }
+}

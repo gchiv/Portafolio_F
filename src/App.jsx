@@ -1,4 +1,5 @@
 import './App.css'
+import Datos from './Datos.jsx'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
           <p>Este portafolio tiene el objetivo de facilitar la búsqueda y visualización de los trabajos que realicé en todas las materias de 5to Semestre.</p>
         </div>
       </header>
+
+      <Datos />
 
       <main className="projects-section">
         <h2>Mis Trabajos</h2>
